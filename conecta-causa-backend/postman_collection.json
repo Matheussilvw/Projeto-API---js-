@@ -1,0 +1,21 @@
+{
+  "info": {
+    "name": "Conecta Causa API"
+  },
+  "item": [
+    {
+      "name": "Register",
+      "request": {
+        "method": "POST",
+        "url": "{{baseUrl}}/api/auth/register"
+      }
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "url": "{{baseUrl}}/api/auth/login"
+      }
+    }
+  ]
+}
